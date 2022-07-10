@@ -1487,6 +1487,8 @@ bot.command('stats',async(ctx)=>{
     })
     
 })
+
+bot.catch(e => console.error(e))
  
 //heroku config
 const domain = `${process.env.DOMAIN}.herokuapp.com`
